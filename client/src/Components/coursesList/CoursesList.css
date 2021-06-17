@@ -1,0 +1,167 @@
+.Recomended{
+    color: #fffff0   !important;
+}
+.coursesList{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly
+}
+
+
+.roww{
+  max-width: 1100px;
+  background-color:#00293C;
+  margin-right: 10px;
+}
+
+.cardCourse{
+  padding: 25px;
+  margin: 35;
+ color: rgb(255, 255, 240);
+  position: "relative"; 
+  width:250px;
+  height: 350;
+  border-top: 3px solid #fffff0 ;
+  border-left:  1px solid #fffff0;
+  height: 350px;
+  box-shadow:"1px 3px 1px rgb(255, 255, 240)"
+
+}
+
+
+
+.editDelete{
+   margin-top: 40px;
+    display: flex;
+  justify-content: flex-end;
+    
+}
+
+.Editbutton {
+    margin-left: 50px;
+    min-width: 50px;
+    min-height: 7px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    font-weight: 600;
+    color: #ffffff;
+    background: #4FD1C5;
+  background: linear-gradient(90deg, #48be76 0%, rgb(79, 209, 133) 100%);
+    border: none;
+    border-radius: 12px;
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    padding: 10px;
+    }
+  
+  button.Editbutton::before {
+  content: '';
+    border-radius: 1000px;
+    min-width: calc(70px + 7px);
+    min-height: calc(30px + 5px);
+    border: 2px solid #00FFCB;
+    box-shadow: 0 0 60px rgba(0,255,203,.64);
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all .3s ease-in-out 0s;
+  }
+  
+  .Editbutton:hover, .Editbutton:focus {
+    color: #fff;
+    transform: translateY(-6px);
+  }
+  
+  button.Editbutton:hover::before, button.Editbutton:focus::before {
+    opacity: 1;
+  }
+  
+  button.Editbutton::after {
+    content: '';
+    width: 30px; height: 30px;
+    border-radius: 100%;
+    border: 2px solid #00FFCB;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: ring 1.5s infinite;
+  }
+  
+  button.Editbutton:hover::after, button.EditButton:focus::after {
+    animation: none;
+    display: none;
+  }
+
+
+
+  .Deletebutton {
+    min-width: 100px;
+    min-height: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    font-weight: 600;
+    color: #ffffff;
+    background: #df5157;
+  background: linear-gradient(90deg, #df5157 0%, #df5157 100%);
+    border: none;
+    border-radius: 12px;
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    padding: 10px;
+    }
+  
+  button.Deletebutton::before {
+  content: '';
+    border-radius: 1000px;
+    min-width: calc(70px + 7px);
+    min-height: calc(30px + 5px);
+    border: 2px solid #df5157;
+   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all .3s ease-in-out 0s;
+  }
+  
+  .Deletebutton:hover, .Deletebutton:focus {
+    color: #ffffff;
+    transform: translateY(-6px);
+  }
+  
+  button.Deletebutton:hover::before, button.Deletebutton:focus::before {
+    opacity: 1;
+  }
+  
+  button.Deletebutton::after {
+    content: '';
+    width: 30px; height: 30px;
+    border-radius: 100%;
+    border: 2px solid #df5157;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: ring 1.5s infinite;
+  }
+  
+  button.Deletebutton:hover::after, button.Deletebutton:focus::after {
+    animation: none;
+    display: none;
+  }
+  .editLink{
+      color: #ffffff;
+  }
+  

@@ -1,0 +1,26 @@
+.coursesPage{
+    display:flex;
+    flex-direction: column;
+    background-color:#00293C;
+}
+.boxx{
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+.kkk{
+ border-radius: 10px;
+ width: 400px;
+ height: 300px;
+ 
+}
+.llllll{
+    margin-left: 30px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: cornsilk;
+}
